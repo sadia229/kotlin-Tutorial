@@ -1,0 +1,12 @@
+var checkNullValue:String? = "non null value"
+
+fun main() {
+    val checkVal:String = "check val"
+    var checkVar:String = "check var"
+    checkVar = "dd"
+    checkNullValue = null
+    
+    println(checkVal)
+    println(checkVar)
+    println(checkNullValue)
+}
