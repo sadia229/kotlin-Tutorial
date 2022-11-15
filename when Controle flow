@@ -1,0 +1,13 @@
+var checkNullValue:String? = null
+
+fun main() {
+    var number = 9
+    
+    when(checkNullValue){
+        null->println("null value")
+        else->print(checkNullValue)
+    }
+    
+    if(number==5)print(number)else print("not 5")
+  
+}
