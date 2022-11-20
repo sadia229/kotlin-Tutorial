@@ -1,0 +1,9 @@
+val fruits : MutableList<String> = mutableListOf("Banana","Apple","Mango")
+
+fun main(){
+    fruits.add("orange")
+    
+    fruits.forEach{
+        f->println(f)
+    }   
+}
