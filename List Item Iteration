@@ -1,0 +1,7 @@
+val fruits : List<String> = listOf("Banana","Apple","Mango")
+
+fun main(){
+    fruits.forEach{
+        f->println(f)
+    }   
+}
